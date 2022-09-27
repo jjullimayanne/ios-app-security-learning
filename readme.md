@@ -5,8 +5,14 @@
 #### You will need: if you have a non-jailbroken device: 
 
 - embedded.mobileprovision
-- npm install -g applesign 
-- applesign -L 
+
+~~~
+npm install -g applesign 
+~~~
+
+~~~
+ applesign -L 
+~~~
 
 
 What is a provision? 
