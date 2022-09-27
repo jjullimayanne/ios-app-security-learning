@@ -41,10 +41,40 @@ This will generate a new file that will be signed
 
 - Zip your file generate through the previos command:
 ~~~
- cp YOURGENERATEAPP YOURGENERATEAPP.zip  
+ cp YOURGENERATEAPP frinda.zip  
 ~~~
 
+- Unzip your file again because you need the payload folder
+
 - You also will need run frida 
+
+~~~
+unzip frida.zip
+~~~
+
+-Now you need install `ios-deploy`
+
+~~~
+npm install ios-deploy
+~~~
+
+- Inside the payload folder you will need run a command to deploy your app 
+
+~~~
+ ios-deploy --bundle SecureStorev1.app -d -W
+~~~
+
+- Now runs Frida command to acess de app 
+
+~~~
+ frida -U -n "AppName"
+~~~
+
+
+
+
+
+
 
 
 
