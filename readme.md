@@ -2,7 +2,7 @@
 #### IOS Basic Tests
 
 
-#### You will need: if you have a non-jailbroken device: 
+#### You will need: if you have a jailbroken device: 
 
 - embedded.mobileprovision
 - What is a provision? 
@@ -21,6 +21,9 @@ To list your applesign
 ~~~
  applesign -i <YOUR APPLESIGN> <APPNAME> -m <embedded.mobileprovision>
 ~~~
+
+
+#### You will need: if you have a non-jailbroken device: 
 
 
 
