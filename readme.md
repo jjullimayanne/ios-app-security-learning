@@ -64,13 +64,13 @@ npm install ios-deploy
  ios-deploy --bundle SecureStorev1.app -d -W
 ~~~
 
-- Now runs Frida command to acess de app 
+- Now runs Frida command to acess de app:
 
 ~~~
  frida -U -n "AppName"
 ~~~
 
-
+Frida is a instrumentation for reverse-enginners, security and etc. 
 
 
 
