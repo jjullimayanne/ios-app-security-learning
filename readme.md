@@ -71,8 +71,7 @@ npm install ios-deploy
 ~~~
 
 Frida is a instrumentation for reverse-enginners, security and etc. 
-[Frida]([https://github.com/sensepost/objection](https://github.com/frida/frida))
-
+[Frida](https://github.com/frida/frida)
 
 
 
