@@ -74,6 +74,15 @@ Frida is a instrumentation for reverse-enginners, security and etc.
 [Frida](https://github.com/frida/frida)
 
 
+Database:
+username | password
+
++----+-----------------------+-
+
+securestore | securestore
+
+attacker       | attacker
+
 
 
 
