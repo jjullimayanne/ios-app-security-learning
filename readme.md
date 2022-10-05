@@ -84,6 +84,8 @@ Frida is a instrumentation for reverse-enginners, security and etc.
 
 [Burp](https://portswigger.net/)
 
+[Crackmes](https://github.com/OWASP/owasp-mastg/tree/master/Crackmes)
+
 
 
 username | password
